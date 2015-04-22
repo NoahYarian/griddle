@@ -1,5 +1,39 @@
-body {
-  background: white; }
+.container {
+  width: 80%;
+  margin: 0 auto; }
+
+.top {
+  background: #490;
+  color: #fff;
+  text-align: center; }
+
+.bottom {
+  background: #999; }
+
+.left {
+  width: 30%;
+  background: #f90;
+  color: #fff;
+  display: inline-block; }
+
+.right {
+  width: 70%;
+  background: #00f;
+  color: #fff;
+  display: inline-block; }
+  .right p {
+    font-size: 1em;
+    margin: 5px;
+    text-align: center; }
+  .right > div {
+    display: inline-block;
+    margin: 5px auto; }
+
+.item {
+  width: 150px;
+  height: 150px;
+  background: #df0;
+  margin: 5px; }
 
 p {
   color: "#f90";
